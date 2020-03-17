@@ -185,7 +185,7 @@ while True:
             for e in enemies:
                 #y coordinate
                 y = e.ycor()
-                sy -= 40
+                y -= 40
                 e.sety(y)
             #Change enemy direction
             enemyspeed *= -1
